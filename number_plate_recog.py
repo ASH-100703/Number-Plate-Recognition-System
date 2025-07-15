@@ -5,6 +5,7 @@ import easyocr
 import imutils
 import random
 
+# Change the image file as required
 img = cv2.imread("C:/Users/ayush/Downloads/Test 3.jpg")
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
