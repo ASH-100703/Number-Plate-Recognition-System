@@ -15,6 +15,8 @@ bfilter = cv2.bilateralFilter(gray, 11, 17, 17)
 plt.imshow(cv2.cvtColor(bfilter, cv2.COLOR_BGR2RGB))
 plt.title('Processed Image')
 plt.show()
+
+#Using Canny edge detector
 edged = cv2.Canny(bfilter, 30, 200)
 plt.imshow(cv2.cvtColor(edged, cv2.COLOR_BGR2RGB))
 plt.title('Edge Detection')
