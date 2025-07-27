@@ -45,3 +45,4 @@ To run the number plate recognition script:
 
 ```bash
 python number_plate_recog.py
+
