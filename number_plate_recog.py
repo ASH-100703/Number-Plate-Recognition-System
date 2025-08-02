@@ -75,3 +75,4 @@ res = cv2.rectangle(img, tuple(location[0][0]), tuple(location[2][0]), (0, 255, 
 plt.imshow(cv2.cvtColor(res, cv2.COLOR_BGR2RGB))
 plt.title('Final Image with Text')
 plt.show()
+
